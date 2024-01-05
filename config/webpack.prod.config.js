@@ -14,11 +14,16 @@ module.exports = merge(common, {
     rules: [
       {
         test: /\.css$/,
-        use: [CssMinimizerPlugin.loader, "css-loader"],
+        use: [CssMinimizerPlugin.loader, "css-loader", "postcss-loader"],
       },
       {
         test: /\.less$/,
-        use: [CssMinimizerPlugin.loader, "css-loader", "less-loader"],
+        use: [
+          CssMinimizerPlugin.loader,
+          "css-loader",
+          "postcss-loader",
+          "less-loader",
+        ],
       },
     ],
   },
