@@ -1,10 +1,51 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
+import React, { Component } from "react";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 
-import App from "./app";
+import "./index.less";
+import LayOut from "./pages/layout";
+import { Board } from "./pages/board";
+import { Article } from "./pages/article";
+import ListComponent from "./pages/list";
+import OrderPage from "./pages/order";
+import UserPage from "./pages/user";
 
-const container = document.getElementById("root");
+class App extends Component {
+  render() {
+    const router = createHashRouter([
+      {
+        path: "/",
+        element: <LayOut />,
+        children: [
+          {
+            path: "board",
+            element: <Board />,
+          },
+          {
+            path: "article",
+            element: <Article />,
+          },
+        ],
+      },
+      {
+        path: "/list",
+        element: <ListComponent />,
+      },
+      {
+        path: "/order",
+        element: <OrderPage />,
+      },
+      {
+        path: "/user",
+        element: <UserPage />,
+      },
+    ]);
 
-const root = createRoot(container);
+    return (
+      <div className="container">
+        <RouterProvider router={router} />
+      </div>
+    );
+  }
+}
 
-root.render(<App />);
+export default App;

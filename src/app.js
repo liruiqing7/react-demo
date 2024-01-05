@@ -1,22 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
+import { createRoot } from "react-dom/client";
 
-import "./app.css";
-import "./index.less";
-import BjImage from "images/copy.png";
-import Content from "./components/content";
+import App from ".";
 
-class App extends Component {
-  render() {
-    console.log("------执行");
-    return (
-      <div className="box1">
-        my-app-test
-        <span className="box2">👴笑了</span>
-        <img src={BjImage} alt="" />
-        <Content />
-      </div>
-    );
-  }
-}
+const container = document.getElementById("root");
 
-export default App;
+const root = createRoot(container);
+
+root.render(<App />);
