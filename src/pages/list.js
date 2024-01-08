@@ -1,7 +1,7 @@
-import { memo } from "react";
+import React, { memo } from "react";
 
-const listPage = memo(() => {
+const ListPage = memo(() => {
   return <div>listPage11</div>;
 });
 
-export default listPage;
+export default ListPage;
