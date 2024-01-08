@@ -1,7 +1,7 @@
-import React, { memo } from "react";
-import { Link } from "react-router-dom";
-import "./index.less";
-import "./main.css";
+import React, { memo } from 'react';
+import { Link } from 'react-router-dom';
+import './index.less';
+import './main.css';
 
 const UserPage = memo(() => {
   return (

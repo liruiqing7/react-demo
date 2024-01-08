@@ -1,37 +1,37 @@
-const path = require("path");
-const { merge } = require("webpack-merge");
-const common = require("./webpack.common.config");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const webpack = require("webpack");
+const path = require('path');
+const { merge } = require('webpack-merge');
+const common = require('./webpack.common.config');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = merge(common, {
-  mode: "development",
-  devtool: "eval-cheap-module-source-map",
+  mode: 'development',
+  devtool: 'eval-cheap-module-source-map',
   devServer: {
-    static: path.join(__dirname, "dist"),
+    static: path.join(__dirname, 'dist'),
     port: 9000,
-    compress: true,
+    compress: true
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader", "postcss-loader"],
+        use: ['style-loader', 'css-loader', 'postcss-loader']
       },
       {
         test: /\.less$/,
-        use: ["style-loader", "css-loader", "postcss-loader", "less-loader"],
-      },
-    ],
+        use: ['style-loader', 'css-loader', 'postcss-loader', 'less-loader']
+      }
+    ]
   },
   plugins: [
     new webpack.ProvidePlugin({
-      React: "react",
+      React: 'react'
     }),
     new HtmlWebpackPlugin({
-      template: "public/index.html",
-      inject: "body",
-      hash: false,
-    }),
-  ],
+      template: 'public/index.html',
+      inject: 'body',
+      hash: false
+    })
+  ]
 });

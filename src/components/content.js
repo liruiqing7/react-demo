@@ -1,16 +1,16 @@
-import React, { memo, useState, useEffect } from "react";
+import React, { memo, useState, useEffect } from 'react';
 
 export default memo(() => {
-  const [name, setName] = useState("liruiqing");
+  const [name, setName] = useState('liruiqing');
 
   useEffect(() => {
     setTimeout(() => {
-      setName("---");
+      setName('---');
     }, 3000);
   }, [name]);
 
   const handleChangeName = () => {
-    setName("wangjiao");
+    setName('wangjiao');
   };
 
   return <div onClick={handleChangeName}>{name}</div>;
