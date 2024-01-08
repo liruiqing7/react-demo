@@ -1,4 +1,4 @@
-import React, { memo, useState, useEffect } from 'react';
+import { memo, useState, useEffect } from 'react';
 
 export default memo(() => {
   const [name, setName] = useState('liruiqing');

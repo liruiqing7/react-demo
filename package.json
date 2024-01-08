@@ -30,7 +30,7 @@
     "eslint-plugin-react": "^7.33.2",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.6.0",
-    "husky": "^8.0.3",
+    "husky": "^8.0.0",
     "less": "^4.2.0",
     "less-loader": "^11.1.4",
     "lint-staged": "^15.2.0",
@@ -57,9 +57,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,json,css,less,md}": [
-      "prettier --write",
-      "stylelint --fix",
-      "git add"
+      "prettier --write"
     ]
   }
 }

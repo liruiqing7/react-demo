@@ -4,6 +4,11 @@ module.exports = {
     es2021: true,
     node: true
   },
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   extends: ['standard', 'plugin:react/recommended', 'plugin:prettier/recommended'],
   overrides: [
     {
