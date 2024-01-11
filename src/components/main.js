@@ -44,12 +44,7 @@ export default memo(() => {
 
   return (
     <Layout>
-      <Header
-        style={{
-          display: 'flex',
-          alignItems: 'center'
-        }}
-      >
+      <Header className="flex items-center">
         <div className="demo-logo" />
       </Header>
       <Layout>
@@ -60,17 +55,10 @@ export default memo(() => {
         >
           <ComponentMenuList />
         </Sider>
-
-        <Layout
-          style={{
-            padding: '0 24px 24px'
-          }}
-        >
+        <Layout className="px-24 pb-24">
           <Content
+            className="px-24 py-24 min-h-280"
             style={{
-              padding: 24,
-              margin: 0,
-              minHeight: 280,
               background: colorBgContainer,
               borderRadius: borderRadiusLG
             }}

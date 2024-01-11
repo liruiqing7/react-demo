@@ -1,0 +1,1109 @@
+{
+  "data": [
+    {
+      "operation_ids": "1,2,3,4",
+      "update_time": "2023-12-06 18:44:13",
+      "code": "101",
+      "update_user": 8,
+      "name": "工单管理",
+      "order_no": 1,
+      "create_user": 18,
+      "operation_list": [
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "add",
+          "update_user": 1533,
+          "name": "增加",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 1
+        },
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "del",
+          "update_user": 1533,
+          "name": "删除",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 2
+        },
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "update",
+          "update_user": 1533,
+          "name": "更新",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 3
+        },
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "query",
+          "update_user": 1533,
+          "name": "查询",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 4
+        }
+      ],
+      "app_id": 44,
+      "sub_list": [
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-06 18:44:19",
+          "code": "1011",
+          "update_user": 8,
+          "name": "报修工单",
+          "order_no": 1,
+          "create_user": 18,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/workOrder/repairWorkOrder",
+          "parent_id": 731,
+          "create_time": "2023-12-06 18:12:06",
+          "is_system": 1,
+          "path": "731",
+          "logo_url": "",
+          "type": 1,
+          "id": 732
+        }
+      ],
+      "uri": "",
+      "parent_id": 0,
+      "create_time": "2023-12-06 18:10:58",
+      "is_system": 1,
+      "path": "",
+      "logo_url": "",
+      "type": 1,
+      "id": 731
+    },
+    {
+      "operation_ids": "",
+      "update_time": "2023-12-11 15:25:47",
+      "code": "0736",
+      "update_user": 18,
+      "name": "立项维修管理",
+      "order_no": 3,
+      "create_user": 8,
+      "operation_list": [],
+      "app_id": 44,
+      "sub_list": [
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-11 15:29:57",
+          "code": "07361",
+          "update_user": 18,
+          "name": "立项维修管理",
+          "order_no": 7361,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/workOrder/approvalRepairOrder",
+          "parent_id": 740,
+          "create_time": "2023-12-07 10:46:36",
+          "is_system": 1,
+          "path": "740",
+          "logo_url": "",
+          "type": 1,
+          "id": 741
+        },
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-07 10:49:28",
+          "code": "07362",
+          "update_user": 8,
+          "name": "施工及验收",
+          "order_no": 7362,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/project/checkList",
+          "parent_id": 740,
+          "create_time": "2023-12-07 10:47:43",
+          "is_system": 1,
+          "path": "740",
+          "logo_url": "",
+          "type": 1,
+          "id": 742
+        },
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-07 10:53:31",
+          "code": "07363",
+          "update_user": 8,
+          "name": "审计及结算",
+          "order_no": 7363,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/project/settlementList",
+          "parent_id": 740,
+          "create_time": "2023-12-07 10:52:56",
+          "is_system": 1,
+          "path": "740",
+          "logo_url": "",
+          "type": 1,
+          "id": 743
+        },
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-07 10:54:32",
+          "code": "07364",
+          "update_user": 8,
+          "name": "质保",
+          "order_no": 7364,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/project/warrantyList",
+          "parent_id": 740,
+          "create_time": "2023-12-07 10:54:32",
+          "is_system": 1,
+          "path": "740",
+          "logo_url": "",
+          "type": 1,
+          "id": 746
+        }
+      ],
+      "uri": "",
+      "parent_id": 0,
+      "create_time": "2023-12-07 10:43:47",
+      "is_system": 1,
+      "path": "",
+      "logo_url": "",
+      "type": 1,
+      "id": 740
+    },
+    {
+      "operation_ids": "",
+      "update_time": "2023-12-11 15:25:42",
+      "code": "200",
+      "update_user": 18,
+      "name": "会议管理",
+      "order_no": 4,
+      "create_user": 8,
+      "operation_list": [],
+      "app_id": 44,
+      "sub_list": [
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-06 18:49:58",
+          "code": "201",
+          "update_user": 8,
+          "name": "会议纪要",
+          "order_no": 201,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/meeting/manager",
+          "parent_id": 733,
+          "create_time": "2023-12-06 18:47:13",
+          "is_system": 1,
+          "path": "733",
+          "logo_url": "",
+          "type": 1,
+          "id": 734
+        }
+      ],
+      "uri": "",
+      "parent_id": 0,
+      "create_time": "2023-12-06 18:46:00",
+      "is_system": 1,
+      "path": "",
+      "logo_url": "",
+      "type": 1,
+      "id": 733
+    },
+    {
+      "operation_ids": "1,2,3,4",
+      "update_time": "2023-12-11 15:25:36",
+      "code": "300",
+      "update_user": 18,
+      "name": "合同管理",
+      "order_no": 5,
+      "create_user": 8,
+      "operation_list": [
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "add",
+          "update_user": 1533,
+          "name": "增加",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 1
+        },
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "del",
+          "update_user": 1533,
+          "name": "删除",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 2
+        },
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "update",
+          "update_user": 1533,
+          "name": "更新",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 3
+        },
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "query",
+          "update_user": 1533,
+          "name": "查询",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 4
+        }
+      ],
+      "app_id": 44,
+      "sub_list": [
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-06 18:51:48",
+          "code": "301",
+          "update_user": 8,
+          "name": "合同管理",
+          "order_no": 301,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/contract/manager",
+          "parent_id": 735,
+          "create_time": "2023-12-06 18:51:48",
+          "is_system": 1,
+          "path": "735",
+          "logo_url": "",
+          "type": 1,
+          "id": 736
+        }
+      ],
+      "uri": "",
+      "parent_id": 0,
+      "create_time": "2023-12-06 18:50:40",
+      "is_system": 1,
+      "path": "",
+      "logo_url": "",
+      "type": 1,
+      "id": 735
+    },
+    {
+      "operation_ids": "1,2,3,4",
+      "update_time": "2023-12-11 15:25:31",
+      "code": "0104",
+      "update_user": 18,
+      "name": "基础配置",
+      "order_no": 6,
+      "create_user": 8,
+      "operation_list": [
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "add",
+          "update_user": 1533,
+          "name": "增加",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 1
+        },
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "del",
+          "update_user": 1533,
+          "name": "删除",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 2
+        },
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "update",
+          "update_user": 1533,
+          "name": "更新",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 3
+        },
+        {
+          "update_time": "2022-11-29 10:39:42",
+          "code": "query",
+          "update_user": 1533,
+          "name": "查询",
+          "create_user": 1533,
+          "is_valid": 1,
+          "create_time": "2017-01-03 16:00:41",
+          "id": 4
+        }
+      ],
+      "app_id": 44,
+      "sub_list": [
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-06 18:43:20",
+          "code": "601",
+          "update_user": 8,
+          "name": "区域配置",
+          "order_no": 601,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/basic/area",
+          "parent_id": 721,
+          "create_time": "2023-12-06 17:42:24",
+          "is_system": 1,
+          "path": "721",
+          "logo_url": "",
+          "type": 1,
+          "id": 726
+        },
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-06 18:43:25",
+          "code": "602",
+          "update_user": 8,
+          "name": "项目配置",
+          "order_no": 602,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/basic/project",
+          "parent_id": 721,
+          "create_time": "2023-12-06 17:42:54",
+          "is_system": 1,
+          "path": "721",
+          "logo_url": "",
+          "type": 1,
+          "id": 727
+        },
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-06 18:43:31",
+          "code": "603",
+          "update_user": 8,
+          "name": "处理规则",
+          "order_no": 603,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/basic/rule",
+          "parent_id": 721,
+          "create_time": "2023-12-06 17:43:28",
+          "is_system": 1,
+          "path": "721",
+          "logo_url": "",
+          "type": 1,
+          "id": 728
+        },
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-06 18:44:03",
+          "code": "604",
+          "update_user": 8,
+          "name": "通用配置",
+          "order_no": 604,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/basic/common",
+          "parent_id": 721,
+          "create_time": "2023-12-06 17:43:58",
+          "is_system": 1,
+          "path": "721",
+          "logo_url": "",
+          "type": 1,
+          "id": 729
+        }
+      ],
+      "uri": "",
+      "parent_id": 0,
+      "create_time": "2023-12-06 17:39:48",
+      "is_system": 1,
+      "path": "",
+      "logo_url": "",
+      "type": 1,
+      "id": 721
+    },
+    {
+      "operation_ids": "",
+      "update_time": "2023-12-11 15:25:26",
+      "code": "0909",
+      "update_user": 18,
+      "name": "系统配置",
+      "order_no": 7,
+      "create_user": 8,
+      "operation_list": [],
+      "app_id": 44,
+      "sub_list": [
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-06 17:40:48",
+          "code": "701",
+          "update_user": 8,
+          "name": "组织管理",
+          "order_no": 701,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/config/org",
+          "parent_id": 722,
+          "create_time": "2023-12-06 17:40:48",
+          "is_system": 1,
+          "path": "722",
+          "logo_url": "",
+          "type": 1,
+          "id": 723
+        },
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-06 17:41:27",
+          "code": "702",
+          "update_user": 8,
+          "name": "人员管理",
+          "order_no": 702,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/config/user",
+          "parent_id": 722,
+          "create_time": "2023-12-06 17:41:27",
+          "is_system": 1,
+          "path": "722",
+          "logo_url": "",
+          "type": 1,
+          "id": 724
+        },
+        {
+          "operation_ids": "1,2,3,4",
+          "update_time": "2023-12-06 17:41:54",
+          "code": "703",
+          "update_user": 8,
+          "name": "角色管理",
+          "order_no": 703,
+          "create_user": 8,
+          "operation_list": [
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "add",
+              "update_user": 1533,
+              "name": "增加",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 1
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "del",
+              "update_user": 1533,
+              "name": "删除",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 2
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "update",
+              "update_user": 1533,
+              "name": "更新",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 3
+            },
+            {
+              "update_time": "2022-11-29 10:39:42",
+              "code": "query",
+              "update_user": 1533,
+              "name": "查询",
+              "create_user": 1533,
+              "is_valid": 1,
+              "create_time": "2017-01-03 16:00:41",
+              "id": 4
+            }
+          ],
+          "app_id": 44,
+          "sub_list": [],
+          "uri": "/config/role",
+          "parent_id": 722,
+          "create_time": "2023-12-06 17:41:54",
+          "is_system": 1,
+          "path": "722",
+          "logo_url": "",
+          "type": 1,
+          "id": 725
+        }
+      ],
+      "uri": "",
+      "parent_id": 0,
+      "create_time": "2023-12-06 17:40:09",
+      "is_system": 1,
+      "path": "",
+      "logo_url": "",
+      "type": 1,
+      "id": 722
+    }
+  ],
+  "code": 0,
+  "msg": "success"
+}

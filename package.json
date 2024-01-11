@@ -54,12 +54,13 @@
   },
   "dependencies": {
     "antd": "^5.12.8",
+    "axios": "^1.6.5",
     "css-minimizer-webpack-plugin": "^5.0.1",
     "react-router": "^6.21.1",
     "react-router-dom": "^6.21.1"
   },
   "lint-staged": {
-    "*.{js,jsx,css,less}": [
+    "*.{js,jsx}": [
       "eslint --fix",
       "prettier --write"
     ],

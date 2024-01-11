@@ -5,14 +5,15 @@ module.exports = {
     index: './src/app.js'
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.json', '.less', '.scss'],
+    extensions: ['.js', '.less', '.jsx', '.json'], //
     modules: [path.resolve(__dirname, '../src'), 'node_modules'],
     alias: {
       components: path.join(__dirname, '../src/components'),
       images: path.join(__dirname, '../src/images'),
       pages: path.join(__dirname, '../src/pages'),
       util: path.join(__dirname, '../src/utils'),
-      mock: path.join(__dirname, '../src/mock')
+      mock: path.join(__dirname, '../src/mock'),
+      api: path.join(__dirname, '../src/api')
     }
   },
   output: {

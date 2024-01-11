@@ -1,6 +1,9 @@
-import { memo, useState } from 'react';
+import { memo, useEffect, useState } from 'react';
 import { Menu } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
+
+import { nonEmptyArray } from '../helpers/util';
+import { getRouterMenuData } from '../api/public';
 
 function getItem(label, key, icon, children, type) {
   return {
@@ -33,24 +36,25 @@ const items = [
 ];
 
 export default memo(() => {
-  const [current, setCurrent] = useState('1');
+  const [menuList, setMenuList] = useState([]);
 
-  const onClick = (e) => {
-    console.log('click ', e);
-    setCurrent(e.key);
+  // 获取菜单路由数据
+  const fetchRouterMenuData = async () => {
+    const res = await getRouterMenuData;
+    if (res && nonEmptyArray(res.body)) {
+      setMenuList(res.body);
+    }
   };
+
+  useEffect(() => {
+    fetchRouterMenuData();
+  }, []);
+
+  console.log(menuList, 'menuList');
 
   return (
     <div>
-      <Menu
-        // theme={theme}
-        onClick={onClick}
-        style={{}}
-        defaultOpenKeys={['sub1']}
-        selectedKeys={[current]}
-        mode="inline"
-        items={items}
-      />
+      <Menu defaultOpenKeys={['sub1']} selectedKeys={['1']} mode="inline" items={items} />
     </div>
   );
 });

@@ -8,9 +8,15 @@ module.exports = merge(common, {
   mode: 'development',
   devtool: 'eval-cheap-module-source-map',
   devServer: {
-    static: path.join(__dirname, 'dist'),
+    static: path.join(__dirname, '../src'),
     port: 9000,
-    compress: true
+    compress: true,
+    proxy: {
+      '/': {
+        target: 'https://wx.hycs.test.zkfc.cn/',
+        changeOrigin: true
+      }
+    }
   },
   module: {
     rules: [
