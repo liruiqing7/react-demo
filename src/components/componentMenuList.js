@@ -40,7 +40,7 @@ export default memo(() => {
 
   // 获取菜单路由数据
   const fetchRouterMenuData = async () => {
-    const res = await getRouterMenuData;
+    const res = await getRouterMenuData();
     if (res && nonEmptyArray(res.body)) {
       setMenuList(res.body);
     }
