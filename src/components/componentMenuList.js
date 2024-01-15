@@ -1,60 +1,73 @@
 import { memo, useEffect, useState } from 'react';
 import { Menu } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 
 import { nonEmptyArray } from '../helpers/util';
 import { getRouterMenuData } from '../api/public';
 
-function getItem(label, key, icon, children, type) {
+function getItem(key, label, children, uri, type, icon) {
   return {
     key,
     icon,
     children,
     label,
-    type
+    type,
+    uri
   };
 }
 
-const items = [
-  getItem('Navigation One', 'sub1', <MailOutlined />, [
-    getItem('Option 1', '1'),
-    getItem('Option 2', '2'),
-    getItem('Option 3', '3'),
-    getItem('Option 4', '4')
-  ]),
-  getItem('Navigation Two', 'sub2', <AppstoreOutlined />, [
-    getItem('Option 5', '5'),
-    getItem('Option 6', '6'),
-    getItem('Submenu', 'sub3', null, [getItem('Option 7', '7'), getItem('Option 8', '8')])
-  ]),
-  getItem('Navigation Three', 'sub4', <SettingOutlined />, [
-    getItem('Option 9', '9'),
-    getItem('Option 10', '10'),
-    getItem('Option 11', '11'),
-    getItem('Option 12', '12')
-  ])
-];
-
 export default memo(() => {
-  const [menuList, setMenuList] = useState([]);
-
-  // 获取菜单路由数据
-  const fetchRouterMenuData = async () => {
-    const res = await getRouterMenuData();
-    if (res && nonEmptyArray(res.body)) {
-      setMenuList(res.body);
-    }
-  };
+  const [menuData, setMenuData] = useState([]);
+  const [currentSelectMenuItem, setCurrentSelectMenuItem] = useState([]);
+  // const [defaultOpenKeys, setDefaultOpenKeys] = useState([]);
 
   useEffect(() => {
     fetchRouterMenuData();
   }, []);
 
-  console.log(menuList, 'menuList');
+  // 获取菜单路由数据
+  const fetchRouterMenuData = async () => {
+    const res = await getRouterMenuData();
+    if (res && nonEmptyArray(res.body)) {
+      const originMenu = res.body;
+      const newMenu = [];
 
+      setCurrentSelectMenuItem(originMenu[0].sub_list[0].uri);
+      // setDefaultOpenKeys(originMenu[0].code);
+
+      // 构建路由树
+      originMenu.map(({ name, code, sub_list }) => {
+        const key = code;
+        const child = [];
+
+        if (nonEmptyArray(sub_list)) {
+          sub_list.map(({ name, code, uri }) => {
+            return child.push(getItem(uri, name, '', uri, code, ''));
+          });
+        }
+
+        return newMenu.push(getItem(key, name, child, '', code, ''));
+      });
+
+      setMenuData(newMenu);
+    }
+  };
+
+  const handleClickMenuItem = (e) => {
+    setCurrentSelectMenuItem(e.key);
+    window.location.href = '/#' + e.key;
+  };
+  // console.log(currentSelectMenuItem, 'currentSelectMenuItem');
+  // console.log(defaultOpenKeys, 'currentSelectMenuItem');
+  // console.log(menuData, 'menuData');
   return (
-    <div>
-      <Menu defaultOpenKeys={['sub1']} selectedKeys={['1']} mode="inline" items={items} />
+    <div className="menuContainer">
+      <Menu
+        defaultOpenKeys={['101']}
+        selectedKeys={[currentSelectMenuItem]}
+        mode="inline"
+        onClick={(e) => handleClickMenuItem(e)}
+        items={menuData}
+      />
     </div>
   );
 });

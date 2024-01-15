@@ -1,14 +1,12 @@
-import { memo } from 'react';
-import { RouterProvider, createHashRouter } from 'react-router-dom';
+import { memo, useEffect } from 'react';
+import { RouterProvider, createHashRouter, Navigate } from 'react-router-dom';
 import { Layout, theme } from 'antd';
+import ComponentMenuList from './componentMenuList';
 
 import Home from '../pages/home';
-import { Board } from '../pages/board';
-import { Article } from '../pages/article';
-import UserPage from '../pages/user';
-import ListPage from '../pages/list';
-
-import ComponentMenuList from './componentMenuList';
+import RepairWorkOrder from '../pages/workOrder/repairWorkOrder';
+import SporadicRepairOrder from '../pages/workOrder/sporadicRepairOrder';
+import { getData } from '../api/public';
 
 const { Header, Content, Sider } = Layout;
 
@@ -17,28 +15,33 @@ export default memo(() => {
     token: { colorBgContainer, borderRadiusLG }
   } = theme.useToken();
 
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    const res = await getData();
+    if (res) {
+      console.log(res);
+    }
+  };
+
   const router = createHashRouter([
     {
       path: '/',
-      element: <Home />,
-      children: [
-        {
-          path: 'board',
-          element: <Board />
-        },
-        {
-          path: 'article',
-          element: <Article />
-        }
-      ]
+      element: <Navigate to="/home" />
     },
     {
-      path: '/list',
-      element: <ListPage />
+      path: '/home',
+      element: <Home />
     },
     {
-      path: '/user',
-      element: <UserPage />
+      path: '/workOrder/repairWorkOrder',
+      element: <RepairWorkOrder />
+    },
+    {
+      path: '/workOrder/sporadicRepairOrder',
+      element: <SporadicRepairOrder />
     }
   ]);
 
